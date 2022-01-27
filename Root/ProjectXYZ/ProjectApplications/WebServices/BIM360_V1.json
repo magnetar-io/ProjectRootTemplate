@@ -1,0 +1,58 @@
+{
+    "Application":"WebServiceManager",
+    "FileType":"WebServiceSettingsFile",
+    "Service": "BIM360",
+    "ServiceApis": {[
+        ["BIM360 Account Admin", "https://forge.autodesk.com/en/docs/bim360/v1/overview/basics/#id1"],["Data Management API", "",""]
+    ],
+    },
+    "ServiceApiDocumentation":"///",
+    "Date":"20210101",
+    "SchemaVersion":"1.0.0",
+    "FileVersion":"Version 0.0.1",
+    "UniuqeID": "0001",
+    "Author": "User Name",
+    "AuthorCompany":"Company Name"
+
+    "data": {
+        "ServiceSettings":[{
+        "ServiceTask": "Post Projects",
+        "SericeTaskName":"Create Project",
+        "ServiceRegion": "US",
+        "ServiceAPI": "https://developer.api.autodesk.com/hq/v1/accounts/:account_id/projects",
+        "name": "<Project Name- From ProjectsList.json>",
+        "service_types": "field",
+        "start_date": "2015-05-02",
+        "end_date": "2016-04-03",
+        "project_type": ["Commercial","Convention Center","Data Center","Hotel / Motel","Office","Parking Structure / Garage","Performing Arts","Retail","Stadium/Arena","Theme Park","Warehouse (non-manufacturing)","Healthcare","Assisted Living / Nursing Home","Hospital","Medical Laboratory","Medical Office","OutPatient Surgery Center","Institutional","Court House","Dormitory","Education Facility","Government Building","Library","Military Facility","Museum","Prison / Correctional Facility","Recreation Building","Religious Building","Research Facility / Laboratory","Residential","Multi-Family Housing","Single-Family Housing","Infrastructure","Airport","Bridge","Canal / Waterway","Dams / Flood Control / Reservoirs","Harbor / River Development","Rail","Seaport","Streets / Roads / Highways","Transportation Building","Tunnel","Waste Water / Sewers","Water Supply","Industrial & Energy","Manufacturing / Factory","Oil & Gas","Plant","Power Plant","Solar Far","Utilities","Wind Farm","Sample Projects","Demonstration Project","Template Project","Training Project"
+        ],
+        
+        "value": 3000,
+        "currency": "USD",
+        "job_number": "0219-01",
+        "address_line_1": "The Fifth Avenue",
+        "address_line_2": "#301",
+        "city": "New York",
+        "state_or_province": "New York",
+        "postal_code": "10011",
+        "country": "United States",
+        "business_unit_id": "c17e6837-96cd-4839-868e-051a2ad65d28",
+        "timezone": "America/New_York",
+        "language": "en",
+        "construction_type": "Renovation",
+        "contract_type": "Design-Bid",
+        "template_project_id": "<enter template id>",
+        "include_companies": "true",
+        "include_locations": "false",
+
+       "": ["Walls", "Floors"],
+        "Visible2DCategories": ["Walls", "Floors"],
+       },
+       
+       {
+         "viewname": "Main Stucture",
+         "Visible3DCategories": ["Walls", "Floors"],
+         "Visible2DCategories": ["Walls", "Floors"], 
+    }
+    ]}
+      }
